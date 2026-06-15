@@ -1,8 +1,9 @@
 # Youtube_maker
 
-Youtube_maker/                         ← プロジェクトルート
+```text
+Youtube_maker/                        ← プロジェクトルート
 │
-├── scripts/                         ← スクリプト一式
+├── scripts/                          ← スクリプト一式
 │   ├── manager.py
 │   ├── theme_generator.py
 │   ├── genkou_generater.py
@@ -16,7 +17,7 @@ Youtube_maker/                         ← プロジェクトルート
 │   └── auth.py
 │
 ├── channels/
-│   └── {チャンネル名}/              ← チャンネルごとに1フォルダ
+│   └── {チャンネル名}/               ← チャンネルごとに1フォルダ
 │       ├── config/
 │       │   ├── manager_config.ini
 │       │   ├── theme_gen_config.txt
@@ -29,11 +30,11 @@ Youtube_maker/                         ← プロジェクトルート
 │       │   ├── paradox.txt
 │       │   └── genkou_prompt.txt
 │       ├── data/
-│       │   ├── themes.csv           ← 自動生成・更新
-│       │   └── genkou.csv           ← 自動生成・更新
+│       │   ├── themes.csv            ← 自動生成・更新
+│       │   └── genkou.csv            ← 自動生成・更新
 │       ├── output/
-│       │   └── result/              ← 生成された.mp4
-│       └── logs/                    ← 実行ログ
+│       │   └── result/               ← 生成された.mp4
+│       └── logs/                     ← 実行ログ
 │
 └── common/
     └── config/
