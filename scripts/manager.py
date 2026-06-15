@@ -3,7 +3,6 @@
 """
 manager.py
 YouTube Shorts 自動生成・投稿 パイプラインマネージャー
-配置先: wikiproject\\scripts\\manager.py
 
 【実行タイミング】
   OSのタスクスケジューラで 平日 03:00 JST に起動する。
